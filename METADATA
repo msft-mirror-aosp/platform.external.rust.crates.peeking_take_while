@@ -1,0 +1,19 @@
+name: "peeking_take_while"
+description: "Provides the peeking_take_while iterator adaptor method."
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/peeking_take_while"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/fitzgen/peeking_take_while"
+  }
+  version: "0.1.2"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2020
+    month: 3
+    day: 31
+  }
+}
