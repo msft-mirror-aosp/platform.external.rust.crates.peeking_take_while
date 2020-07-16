@@ -11,6 +11,7 @@ rust_library {
 rust_defaults {
     name: "peeking_take_while_defaults",
     crate_name: "peeking_take_while",
+    srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
     edition: "2015",
@@ -19,11 +20,9 @@ rust_defaults {
 rust_test_host {
     name: "peeking_take_while_host_test_src_lib",
     defaults: ["peeking_take_while_defaults"],
-    srcs: ["src/lib.rs"],
 }
 
 rust_test {
     name: "peeking_take_while_device_test_src_lib",
     defaults: ["peeking_take_while_defaults"],
-    srcs: ["src/lib.rs"],
 }
