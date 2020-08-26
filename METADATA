@@ -6,8 +6,8 @@ third_party {
     value: "https://crates.io/crates/peeking_take_while"
   }
   url {
-    type: GIT
-    value: "https://github.com/fitzgen/peeking_take_while"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/peeking_take_while/peeking_take_while-0.1.2.crate"
   }
   version: "0.1.2"
   license_type: NOTICE
