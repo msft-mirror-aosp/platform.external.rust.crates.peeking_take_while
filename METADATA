@@ -1,5 +1,5 @@
 name: "peeking_take_while"
-description: "Provides the peeking_take_while iterator adaptor method."
+description: "Like `Iterator::take_while`, but calls the predicate on a peeked value. This allows you to use `Iterator::by_ref` and `Iterator::take_while` together, and still get the first value for which the `take_while` predicate returned false after dropping the `by_ref`."
 third_party {
   url {
     type: HOMEPAGE
