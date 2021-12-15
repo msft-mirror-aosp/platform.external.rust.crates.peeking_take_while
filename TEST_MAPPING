@@ -13,7 +13,18 @@
       "name": "legacykeystore_test"
     },
     {
-      "name": "peeking_take_while_device_test_src_lib"
+      "name": "peeking_take_while_test_src_lib"
+    }
+  ],
+  "presubmit-rust": [
+    {
+      "name": "keystore2_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "peeking_take_while_test_src_lib"
     }
   ]
 }
